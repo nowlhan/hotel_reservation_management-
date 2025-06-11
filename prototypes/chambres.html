@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestion des chambres</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h2>Hôtel Admin</h2>
+      <a href="index.html">Dashboard</a>
+      <a href="chambres.html">Chambres</a>
+      <a href="reservation.html">Réservations</a>
+      <a href="historique.html">Historique</a>
+    </nav>
+    <main>
+      <header>
+        <h1>Gestion des chambres</h1>
+        <button class="btn">+ Ajouter une chambre</button>
+      </header>
+
+      <section class="room-table">
+        <h2>Liste des chambres</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Numéro</th>
+              <th>Type</th>
+              <th>État</th>
+              <th>Prix (€)</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>101</td>
+              <td>Simple</td>
+              <td>Libre</td>
+              <td>60</td>
+              <td class="actions">
+                <button class="btn">Modifier</button>
+                <button class="btn btn-secondary">Supprimer</button>
+              </td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Double</td>
+              <td>Occupée</td>
+              <td>80</td>
+              <td class="actions">
+                <button class="btn">Modifier</button>
+                <button class="btn btn-secondary">Supprimer</button>
+              </td>
+            </tr>
+            <tr>
+              <td>103</td>
+              <td>Suite</td>
+              <td>Maintenance</td>
+              <td>120</td>
+              <td class="actions">
+                <button class="btn">Modifier</button>
+                <button class="btn btn-secondary">Supprimer</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

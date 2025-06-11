@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Tableau de bord - Réservations</title>
+  
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h2>Hôtel Admin</h2>
+      <a href="index.html">Dashboard</a>
+      <a href="chambres.html">Chambres</a>
+      <a href="reservation.html">Réservations</a>
+      <a href="historique.html">Historique</a>
+    </nav>
+    <main>
+      <header>
+        <h1>Tableau de bord</h1>
+        <button class="btn">Déconnexion</button>
+      </header>
+
+      <section class="stats">
+        <div class="card">
+          <h3>Chambres Occupées</h3>
+          <p>12 / 20</p>
+        </div>
+        <div class="card">
+          <h3>Disponibles</h3>
+          <p>8</p>
+        </div>
+        <div class="card">
+          <h3>Réservations en cours</h3>
+          <p>5</p>
+        </div>
+      </section>
+
+      <section class="reservations">
+        <h2>Réservations récentes</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Client</th>
+              <th>Chambre</th>
+              <th>Date</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dupont Jean</td>
+              <td>102</td>
+              <td>03-05-2025</td>
+              <td>Confirmée</td>
+            </tr>
+            <tr>
+              <td>Martin Claire</td>
+              <td>205</td>
+              <td>02-05-2025</td>
+              <td>En attente</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
